@@ -1,7 +1,7 @@
 #!usr/bin/python3
 
 if _name_ == "_main_":
-    """Print the number of and list of its arguments."""
+    """write a programe that prints the number of and list of its arguments."""
     import sys
 
     count = len(sys.argv) - 1
@@ -12,4 +12,4 @@ if _name_ == "_main_":
     else:
         print("{} arguments:".format(count))
     for i in range(count):
-            print("{}: {}".format(i + 1, sys.argv[i + 1]))
+        print("{}: {}".format(i + 1, sys.argv[i + 1]))

@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 if_name_ =="_main_":
-    """Preintthe sum of 1 and 2."""
+    """programe that preintthe sum of 1 and 2."""
     from add_0 import add
 
     a = 1
