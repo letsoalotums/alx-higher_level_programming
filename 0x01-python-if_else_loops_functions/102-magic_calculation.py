@@ -4,8 +4,8 @@
 def magic_calculation(a, b, c):
     """Match bytecode provided by Holberton School."""
     if a < b:
-        return a - b
-    elif c > b:
-        return (a + b) * c
+        return (c)
+    if c > b:
+        return (a - b)
     else:
         return a * b -c
