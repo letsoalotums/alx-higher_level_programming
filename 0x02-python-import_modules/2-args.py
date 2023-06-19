@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-if _name_ == "_main_":
     """write a programe that prints the number of and list of its arguments."""
     import sys
 
