@@ -1,16 +1,19 @@
 #!/usr/bin/python3
 
-a = 10
-b = 5
+if __name__ == "__main__":
 
-from calculator_1 import add, subtract, multiply, divide
+    a = 10
+    b = 5
 
-result1 = add(a, b)
-result2 = subtract(a, b)
-result3 = multiply(a, b)
-result4 = divide(a, b)
+    from calculator_1 import add, subtract, multiply, divide
 
-output = "Addition result: {}\nSubtraction result: {}\nMultiplication result: {}\nDivision result: {}".format(
+    result1 = add(a, b)
+    result2 = subtract(a, b)
+    result3 = multiply(a, b)
+    result4 = divide(a, b)
+
+    output = "Addition result: {}\nSubtraction result: {}\nMultiplication result: {}\nDivision result: {}".format(
     result1, result2, result3, result4
-)
-print(output)
+    )
+    
+    print(output)
